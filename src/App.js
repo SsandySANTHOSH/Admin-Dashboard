@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import TeamDetails from './pages/TeamDetails';
+//import TextComponent from './component';
+//import TodoComponent from './Todo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <TeamDetails />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+// {/* <TextComponent  firstName="MOHAN" lastName="RAJ"
+//       age="23" /> */}
